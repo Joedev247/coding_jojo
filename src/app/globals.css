@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #FFF5E6, #FFA500 40%, #FF6B6B);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #333; /* Default text color */
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+

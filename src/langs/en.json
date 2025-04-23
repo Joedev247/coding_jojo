@@ -1,0 +1,43 @@
+{
+    "search": "Search courses, topics, or skills...",
+    "login": "Log in",
+    "signup": "Sign up",
+    "announcement": {
+      "text": "🔥 Flash Sale: 50% Off Premium Web Dev Courses! Ends in",
+      "hours": "hours",
+      "minutes": "min",
+      "seconds": "sec",
+      "cta": "Claim Discount",
+      "new": "NEW"
+    },
+    "courses": {
+      "html": "HTML",
+      "css": "CSS",
+      "javascript": "JavaScript",
+      "sql": "SQL",
+      "python": "Python",
+      "php": "PHP",
+      "bootstrap": "Bootstrap",
+      "jquery": "jQuery",
+      "react": "React",
+      "nodejs": "NodeJS",
+      "java": "Java",
+      "csharp": "C#",
+      "cpp": "C++",
+      "typescript": "TypeScript",
+      "angular": "Angular",
+      "vue": "Vue",
+      "ruby": "Ruby",
+      "django": "Django",
+      "mongodb": "MongoDB",
+      "aws": "AWS",
+      "docker": "Docker",
+      "kubernetes": "Kubernetes",
+      "devops": "DevOps",
+      "blockchain": "Blockchain",
+      "ai": "AI",
+      "machinelearning": "Machine Learning",
+      "datascience": "Data Science"
+    }
+  }
+  

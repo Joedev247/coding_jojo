@@ -1,0 +1,43 @@
+{
+    "search": "Buscar cursos, temas o habilidades...",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "announcement": {
+      "text": "🔥 Oferta Flash: ¡50% de descuento en cursos premium! Termina en",
+      "hours": "horas",
+      "minutes": "min",
+      "seconds": "seg",
+      "cta": "Obtener Descuento",
+      "new": "NUEVO"
+    },
+    "courses": {
+      "html": "HTML",
+      "css": "CSS",
+      "javascript": "JavaScript",
+      "sql": "SQL",
+      "python": "Python",
+      "php": "PHP",
+      "bootstrap": "Bootstrap",
+      "jquery": "jQuery",
+      "react": "React",
+      "nodejs": "NodeJS",
+      "java": "Java",
+      "csharp": "C#",
+      "cpp": "C++",
+      "typescript": "TypeScript",
+      "angular": "Angular",
+      "vue": "Vue",
+      "ruby": "Ruby",
+      "django": "Django",
+      "mongodb": "MongoDB",
+      "aws": "AWS",
+      "docker": "Docker",
+      "kubernetes": "Kubernetes",
+      "devops": "DevOps",
+      "blockchain": "Blockchain",
+      "ai": "IA",
+      "machinelearning": "Aprendizaje Automático",
+      "datascience": "Ciencia de Datos"
+    }
+  }
+  
