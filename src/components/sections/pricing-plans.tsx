@@ -1,7 +1,19 @@
 import React from 'react';
 import { Check, ArrowRight, Users } from 'lucide-react';
 
-const PricingCard = ({ plan }) => {
+interface PricingPlan {
+  title: string;
+  forText: string;
+  userCount: string;
+  price?: string;
+  period?: string;
+  priceText?: string;
+  billingInfo?: string;
+  buttonText: string;
+  features: string[];
+}
+
+const PricingCard = ({ plan }: { plan: PricingPlan }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg border border-gray-100 hover:shadow-xl hover:scale-[1.02] transition-all duration-300 flex flex-col">
       {/* Card Header */}
@@ -42,7 +54,7 @@ const PricingCard = ({ plan }) => {
       {/* Features List */}
       <div className="px-8 py-6 bg-gray-50 flex-grow">
         <ul className="space-y-4">
-          {plan.features.map((feature, index) => (
+          {plan.features.map((feature: string | number | bigint | boolean | React.ReactElement<unknown, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<string | number | bigint | boolean | React.ReactPortal | React.ReactElement<unknown, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | null | undefined> | null | undefined, index: React.Key | null | undefined) => (
             <li key={index} className="flex items-start">
               <Check className="w-5 h-5 text-green-500 mr-3 flex-shrink-0" />
               <span className="text-sm text-gray-700">{feature}</span>

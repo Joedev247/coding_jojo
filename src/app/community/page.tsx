@@ -7,6 +7,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { Search, Filter, MessageCircle, Users, Bell, BookOpen, Award, ChevronDown, ThumbsUp, Share2, MoreHorizontal } from 'lucide-react';
 import { GetServerSideProps } from 'next';
+import Image from 'next/image';
 
 // Types
 interface Post {
@@ -174,7 +175,7 @@ function CommunityPageContent({
                 <ul className="space-y-4">
                   {featuredMembers.slice(0, 5).map(member => (
                     <li key={member.id} className="flex items-center space-x-3">
-                      <img 
+                      <Image 
                         src={member.avatarUrl} 
                         alt={member.name}
                         className="w-10 h-10 rounded-full object-cover"
@@ -306,7 +307,7 @@ function CommunityPageContent({
                   {posts.map((post) => (
                     <div key={post.id} className="bg-white rounded-lg shadow p-6">
                       <div className="flex items-center space-x-3 mb-4">
-                        <img
+                        <Image
                           src={post.author.avatarUrl}
                           alt={post.author.name}
                           className="w-10 h-10 rounded-full object-cover"
@@ -429,7 +430,7 @@ function CommunityPageContent({
                 <div className="space-y-6">
                   <div className="flex space-x-3">
                     <div className="flex-shrink-0">
-                      <img
+                      <Image
                         src="https://api.placeholder.com/32"
                         alt="User avatar"
                         className="w-8 h-8 rounded-full"
@@ -448,7 +449,7 @@ function CommunityPageContent({
 
                   <div className="flex space-x-3">
                     <div className="flex-shrink-0">
-                      <img
+                      <Image
                         src="https://api.placeholder.com/32"
                         alt="User avatar"
                         className="w-8 h-8 rounded-full"
@@ -467,7 +468,7 @@ function CommunityPageContent({
 
                   <div className="flex space-x-3">
                     <div className="flex-shrink-0">
-                      <img
+                      <Image
                         src="https://api.placeholder.com/32"
                         alt="User avatar"
                         className="w-8 h-8 rounded-full"

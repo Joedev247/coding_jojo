@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useEffect, useRef } from 'react'
-import { Search, Filter, ChevronDown, Star, Clock, BarChart, Zap, Users, Check, X, Plus, ShoppingCart, Trophy, Sparkles, BookOpen, ChevronLeft, ChevronRight } from 'lucide-react'
+import { Search, Filter, ChevronDown, Star, Clock, Check, X, Plus, ChevronLeft, ChevronRight } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 // import { useCart } from '@/context/CartContext'
